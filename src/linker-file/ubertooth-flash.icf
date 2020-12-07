@@ -1,0 +1,111 @@
+/*###ICF### Section handled by ICF editor, don't touch! ****/
+/*-Editor annotation file-*/
+/* IcfEditorFile="$TOOLKIT_DIR$\config\ide\IcfEditor\cortex_v1_0.xml" */
+//==============================================================================
+//Chip: LPC1756FBD80
+//ROM:  256 kB              0x00000000 - 0x0003FFFF
+//Ubertooth setup:rom (rx): ORIGIN = 0x00004000, LENGTH = (128K - 16384)
+
+//RAM1: 16 kB               0x10000000 - 0x10003FFF
+//Ubertooth setup:ram (rwx):ORIGIN = 0x10000000, LENGTH =  16K
+
+//Boot  ROM                 0x1FFF0000 - 0x1FFF1FFF 8 kB with flash services
+//==============================================================================
+
+//---- [ISR] ----
+define symbol __ICFEDIT_intvec_start__ = 0x00000000;
+
+//---- [ROM] ----
+define symbol __ICFEDIT_region_ROM_start__ = 0x00004000;
+define symbol __CRP_start__                = 0x000002FC;
+define symbol __CRP_end__                  = 0x000002FF;
+define symbol __ICFEDIT_region_ROM_end__   = 0x0003FFFF;
+ 
+//---- [RAM] Vector table dynamic copy: 
+//8_byte_aligned(49 vect * 4 bytes) =  8_byte_aligned(0xC4) = 0xC8
+define symbol __NVIC_start__               = 0x10000000;         //?
+define symbol __NVIC_end__                 = 0x100000C7;         //?
+define symbol __ICFEDIT_region_RAM_start__ = 0x10000000;
+define symbol __ICFEDIT_region_RAM_end__   = 0x10003FDF;
+define symbol _AHB_RAM_start__             = 0x2007C000;
+define symbol _AHB_RAM_end__               = 0x20083FFF;
+define symbol __ICFEDIT_size_ram__          = __ICFEDIT_region_RAM_end__ - 
+                                              __ICFEDIT_region_RAM_start__;
+
+//---- Memory regions
+define memory mem with size = 4G;
+ 
+define region ROM_region     = mem:[from __ICFEDIT_region_ROM_start__
+                                    to   __ICFEDIT_region_ROM_end__] - 
+                               mem:[from __CRP_start__ to __CRP_end__];
+                               
+define region CRP_region     = mem:[from __CRP_start__ to __CRP_end__];
+ 
+define region RAM_region     = mem:[from __ICFEDIT_region_RAM_start__
+                                    to   __ICFEDIT_region_RAM_end__];
+                                    
+define region AHB_RAM_region = mem:[from _AHB_RAM_start__ to _AHB_RAM_end__];
+
+//---- Stack and Heap ----
+define symbol __ICFEDIT_size_cstack__ = 0x800;
+define symbol __ICFEDIT_size_heap__   = 0x1000;
+
+define block CSTACK    with alignment = 8, size = __ICFEDIT_size_cstack__ { };
+define block HEAP      with alignment = 8, size = __ICFEDIT_size_heap__   { };
+define block STACKHEAP with fixed order { block HEAP, block CSTACK };
+
+//---- Ini ----
+initialize by copy with packing = zeros { readwrite };
+do not initialize  { section .noinit };
+do not initialize  { section USB_DMA_RAM };
+//initialize by copy {readwrite};
+ 
+place at address mem: __ICFEDIT_intvec_start__ { section .intvec }; // {readonly section .intvec};
+place at address mem: 0x2FC { section CRPKEY };
+
+place in ROM_region     { readonly };
+place in RAM_region     { readwrite, block STACKHEAP };
+//place in RAM_region   {readwrite, block CSTACK, block HEAP };
+place in CRP_region     { section .crp };
+place in AHB_RAM_region { section USB_DMA_RAM }; //{section .sram };
+
+/**** End of ICF editor section. ###ICF###*/
+
+//==============================================================================
+//Bootloader section
+//==============================================================================
+define block BOOTLOADER with alignment = 1024, 
+                             size = 16384, 
+                             fixed order { section .bootloader };
+
+place at address mem: 0x0003FC00 { block BOOTLOADER };
+
+do not initialize  { section .bootloader };
+//place in ROM_region { block BOOTLOADER };
+keep { block BOOTLOADER };
+
+
+//place at address mem: start 0x0003FBFF end 0x0003FFFF { section .bootloader };
+//do not initialize  { section .bootloader };
+//keep { section .bootloader };
+
+
+
+//================== Project definitions =======================================
+//For start and functioning from internal FLASH memory
+//==============================================================================
+//1) Proggramm code placed into Flash from address:
+//ROM start address = 0x00000100
+
+//2) убедиться, что в настройках линкера правильно указана область RAM
+//RAM start address = 0x10000000, End address = 0x10007FFF
+
+//3) Учтите, что у LPC17xx ОЗУ разбита на 2 блока с начальными адресами
+//0x10000000 и 0x20000000 (подключен к шине AHB, использовать для DMA)
+//см. стр 12 из юзерь мануала
+
+//4) Убедиться, что таблица векторов прерываний не перенесена в область ОЗУ. 
+//(Если работаете в IAR, посмотреть чтоб не было никаких макросов в на закладке Setup страницы Debugger).
+
+//5) Убедиться, что Вы вообще программируете флеш. В IAR должна стоять галочка 
+//Use flash loader(s) на закладке Download страницы Debugger.
