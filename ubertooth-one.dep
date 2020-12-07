@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>334184418</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\usb_serial.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_usb.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usbhw_lpc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc17_startup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc2400_rangetest.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_usb.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usbinit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\ubertooth-one.hex</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dm3-tx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\ubertooth.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth-one.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_dma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bluetooth_le.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\serial_fifo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bluetooth_rxtx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_dma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc17_system.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usbstdreq.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ego.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_rssi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_serial.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bluetooth_le.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usbstdreq.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usbcontrol.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_cs.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\syncword.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usbinit.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usbcontrol.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\dm3-tx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpc17_system.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ego.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\serial_fifo.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\syncword.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bluetooth_rxtx.o</file>
+      <file>$PROJ_DIR$\src\bt-tx\bt-tx.h</file>
+      <file>$PROJ_DIR$\src\bluetooth\classic\bluetooth.h</file>
+      <file>$PROJ_DIR$\src\bluetooth\ble\bluetooth_le.c</file>
+      <file>$PROJ_DIR$\src\bluetooth\ble\bluetooth_le.h</file>
+      <file>$PROJ_DIR$\src\bluetooth\classic\bluetooth.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\usbhw_lpc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bluetooth.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_clock.o</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbhw_lpc.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbapi.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbstruct.h</file>
+      <file>$PROJ_DIR$\src\usb-serial\usb_serial.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\usb\ubertooth_usb.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbstdreq.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_cs.o</file>
+      <file>$PROJ_DIR$\src\ubertooth\ubertooth.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ubertooth_rssi.o</file>
+      <file>$PROJ_DIR$\src\usb-driver\debug.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbinit.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\ubertooth.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\bluetooth.pbi</file>
+      <file>$PROJ_DIR$\src\ubertooth\usb\ubertooth_usb.c</file>
+      <file>$PROJ_DIR$\src\usb-driver\type.h</file>
+      <file>$PROJ_DIR$\src\bluetooth_rxtx.c</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbcontrol.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc2400_rangetest.o</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbhw_lpc.c</file>
+      <file>$PROJ_DIR$\src\usb-serial\usb_serial.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\dma\ubertooth_dma.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\rssi\ubertooth_rssi.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\cs\ubertooth_cs.h</file>
+      <file>$PROJ_DIR$\src\fifo\serial_fifo.h</file>
+      <file>$PROJ_DIR$\src\linker-file\ubertooth-ram.icf</file>
+      <file>$PROJ_DIR$\src\ubertooth\rssi\ubertooth_rssi.h</file>
+      <file>$PROJ_DIR$\src\ego\ego.h</file>
+      <file>$PROJ_DIR$\src\linker-file\sections.ld</file>
+      <file>$PROJ_DIR$\src\lpc1756\lpc17_system.c</file>
+      <file>$PROJ_DIR$\src\fifo\serial_fifo.c</file>
+      <file>$PROJ_DIR$\src\libubertooth\ubertooth_interface.h</file>
+      <file>$PROJ_DIR$\src\bt-tx\syncword.c</file>
+      <file>$PROJ_DIR$\src\linker-file\ubertooth-flash.icf</file>
+      <file>$PROJ_DIR$\src\cc2400\cc2400_rangetest.c</file>
+      <file>$PROJ_DIR$\src\linker-file\ubertooth-with-bootloader.icf</file>
+      <file>$PROJ_DIR$\src\cc2400\cc2400_rangetest.h</file>
+      <file>$PROJ_DIR$\src\headers\revision.h</file>
+      <file>$PROJ_DIR$\src\headers\types.h</file>
+      <file>$PROJ_DIR$\src\linker-file\LPC17xx_Linker_Script_with_bootloader.ld</file>
+      <file>$PROJ_DIR$\src\lpc1756\lpc17_startup.s</file>
+      <file>$PROJ_DIR$\src\cc2400\cc2400.h</file>
+      <file>$PROJ_DIR$\src\lpc1756\lpc17_system.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\clock\ubertooth_clock.h</file>
+      <file>$PROJ_DIR$\src\lpc1756\lpc17.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\clock\ubertooth_clock.c</file>
+      <file>$PROJ_DIR$\src\bt-tx\dm3-tx.c</file>
+      <file>$PROJ_DIR$\src\ego\ego.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\cs\ubertooth_cs.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\dma\ubertooth_dma.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\ubertooth.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bluetooth\ble\bluetooth_le.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102 6 66 99 10 96 89 44 20 24 52 31 26 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bluetooth\classic\bluetooth.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 89 31 44 96 10 26 11 20 50 102 99 24 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-driver\usbstdreq.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 64 63 26 11 20 10 59 31 73 68 58 46 24 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-driver\usbinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 66 64 63 26 11 20 10 73 96 57 31 89 68 58 46 24 6 59 102 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\ubertooth.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96 44 6 89 10 102 99 20 24 66 31 26 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\usb\ubertooth_usb.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 66 10 20 89 35 59 96 44 6 57 61 73 102 99 31 26 11 58 63 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bluetooth_rxtx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 26 66 89 49 63 11 20 81 52 102 36 64 61 84 79 50 94 85 95 10 1 31 96 35 24 6 46 99 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-driver\usbcontrol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 10 59 20 6 73 68 58 64 63 24 31 26 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-driver\usbhw_lpc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 10 31 68 102 58 64 63 26 11 20 59 73 46 24 6 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-serial\usb_serial.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 10 11 20 44 96 82 89 31 58 59 73 60 35 102 99 24 6 66 63 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\rssi\ubertooth_rssi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 10 44 35 36 11 84 31 26 24 6 63 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1756\lpc17_system.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 44 102 10 11 100 31 26 24 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\fifo\serial_fifo.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 82</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bt-tx\syncword.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 20 10 11 96 31 26 24 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\cc2400\cc2400_rangetest.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89 31 44 66 96 10 26 11 20 94 102 99 24 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1756\lpc17_startup.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\clock\ubertooth_clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 36 6 102 10 66 20 24 99 101 31 26 11 96 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bt-tx\dm3-tx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 10 11 20 102 66 31 99 44 49 24 6 96 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ego\ego.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 66 89 96 10 31 101 102 99 20 26 11 36 85 24 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\cs\ubertooth_cs.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 36 20 84 10 99 66 44 26 11 102 81 24 6 96 89</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\dma\ubertooth_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 66 26 11 20 102 31 99 79 36 44 24 6 96 89</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Release\Obj\system.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usbhw_lpc.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\bluetooth_rxtx.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bluetooth.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\src\lpc1756\iar.h</file>
+      <file>$PROJ_DIR$\src\lpc1756_iar\startup.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_serial.o</file>
+      <file>$PROJ_DIR$\Release\Obj\cc2400_rangetest.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usbstdreq.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usbstdreq.o</file>
+      <file>$PROJ_DIR$\Release\Obj\dm3-tx.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_dma.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bluetooth_le.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usbinit.o</file>
+      <file>$PROJ_DIR$\Release\Obj\ego.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\usbcontrol.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_dma.__cstat.et</file>
+      <file>$PROJ_DIR$\src\lpc1756_iar\system.c</file>
+      <file>$PROJ_DIR$\Release\Obj\bluetooth_rxtx.o</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_rssi.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bluetooth_le.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_usb.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_usb.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_rssi.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\dm3-tx.__cstat.et</file>
+      <file>$PROJ_DIR$\src\lpc1756_iar\LPC17xx.h</file>
+      <file>$PROJ_DIR$\Release\Obj\ego.o</file>
+      <file>$PROJ_DIR$\src\lpc1756_iar\system_LPC17xx.h</file>
+      <file>$PROJ_DIR$\Release\Obj\serial_fifo.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\syncword.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usbhw_lpc.o</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_cs.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_clock.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\usbstdreq.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bluetooth_le.o</file>
+      <file>$PROJ_DIR$\Release\Obj\startup.o</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_usb.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bluetooth.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\cpp.out</file>
+      <file>$PROJ_DIR$\Release\Obj\ego.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usbinit.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\src\bt-tx\bt-tx.h</file>
+      <file>$PROJ_DIR$\src\bluetooth\classic\bluetooth.h</file>
+      <file>$PROJ_DIR$\src\bluetooth\ble\bluetooth_le.c</file>
+      <file>$PROJ_DIR$\src\bluetooth\ble\bluetooth_le.h</file>
+      <file>$PROJ_DIR$\src\bluetooth\classic\bluetooth.c</file>
+      <file>$PROJ_DIR$\Release\Obj\cc2400_rangetest.pbi</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_cs.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_ne.a</file>
+      <file>$PROJ_DIR$\Release\Obj\syncword.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\usbhw_lpc.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_serial.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_rssi.o</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_clock.o</file>
+      <file>$PROJ_DIR$\Release\Obj\dm3-tx.o</file>
+      <file>$PROJ_DIR$\Release\Obj\usbcontrol.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Release\Obj\cc2400_rangetest.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\bluetooth_rxtx.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_clock.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_dma.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\system.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\serial_fifo.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\syncword.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usbinit.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\system.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\usbcontrol.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Release\Obj\ubertooth_cs.o</file>
+      <file>$PROJ_DIR$\Release\Obj\serial_fifo.o</file>
+      <file>$PROJ_DIR$\Release\Obj\bluetooth.__cstat.et</file>
+      <file>$PROJ_DIR$\Release\Obj\usb_serial.__cstat.et</file>
+      <file>$PROJ_DIR$\src\lpc1756\types.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbhw_lpc.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbapi.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbstruct.h</file>
+      <file>$PROJ_DIR$\src\usb-serial\usb_serial.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\usb\ubertooth_usb.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbstdreq.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\ubertooth.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\debug.h</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbinit.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\ubertooth.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\usb\ubertooth_usb.c</file>
+      <file>$PROJ_DIR$\src\usb-driver\type.h</file>
+      <file>$PROJ_DIR$\src\bluetooth_rxtx.c</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbcontrol.c</file>
+      <file>$PROJ_DIR$\src\usb-driver\usbhw_lpc.c</file>
+      <file>$PROJ_DIR$\src\usb-serial\usb_serial.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\dma\ubertooth_dma.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\rssi\ubertooth_rssi.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\cs\ubertooth_cs.h</file>
+      <file>$PROJ_DIR$\src\fifo\serial_fifo.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\rssi\ubertooth_rssi.h</file>
+      <file>$PROJ_DIR$\src\ego\ego.h</file>
+      <file>$PROJ_DIR$\src\fifo\serial_fifo.c</file>
+      <file>$PROJ_DIR$\src\libubertooth\ubertooth_interface.h</file>
+      <file>$PROJ_DIR$\src\bt-tx\syncword.c</file>
+      <file>$PROJ_DIR$\src\linker-file\ubertooth-flash.icf</file>
+      <file>$PROJ_DIR$\src\cc2400\cc2400_rangetest.c</file>
+      <file>$PROJ_DIR$\src\cc2400\cc2400_rangetest.h</file>
+      <file>$PROJ_DIR$\src\cc2400\cc2400.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\clock\ubertooth_clock.h</file>
+      <file>$PROJ_DIR$\src\lpc1756\lpc17.h</file>
+      <file>$PROJ_DIR$\src\ubertooth\clock\ubertooth_clock.c</file>
+      <file>$PROJ_DIR$\src\bt-tx\dm3-tx.c</file>
+      <file>$PROJ_DIR$\src\ego\ego.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\cs\ubertooth_cs.c</file>
+      <file>$PROJ_DIR$\src\ubertooth\dma\ubertooth_dma.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1756_iar\startup.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\lpc1756_iar\system.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35 33 6 58 11 49 53 50 8 52 17 77 76 88 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 33 77 11 49 88 58 35 66 53 52 17 50 8 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\cpp.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 121 5 42 26 13 74 34 90 43 37 0 20 73 89 18 72 44 12 87 38 21 15 51 68 56 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bluetooth\ble\bluetooth_le.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63 102 126 58 11 49 53 50 8 52 17 93 124 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126 11 102 124 50 93 119 58 8 63 49 53 52 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bluetooth\classic\bluetooth.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 102 126 58 11 49 53 50 8 52 17 93 124 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 102 119 93 49 11 53 52 17 61 126 124 50 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-driver\usbstdreq.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 103 101 11 49 53 50 8 52 17 100 59 96 95 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 101 100 96 11 53 52 17 49 103 95 59 50 8 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-driver\usbinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 103 101 11 49 53 50 8 52 17 100 59 94 95 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 8 94 59 50 11 96 103 95 101 100 53 52 17 107</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\ubertooth.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102 126 58 11 49 53 50 8 52 17 93 124 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126 11 58 124 93 119 49 53 52 17 102 50 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\usb\ubertooth_usb.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95 107 96 94 102 126 58 11 49 53 50 8 52 17 93 124 119 98 55 100 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 119 55 58 50 11 102 96 93 53 52 100 94 98 107 126 124 8 7 95 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bluetooth_rxtx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55 11 49 53 50 8 52 17 100 7 9 102 126 58 93 124 119 98 116 57 114 112 125 61 63 123 60 117</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 125 57 119 60 102 114 63 126 49 9 98 116 112 61 123 117 53 52 17 124 55 100 7 50 8 93 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-driver\usbcontrol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 103 101 11 49 53 50 8 52 17 100 59 96 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 50 11 96 49 8 107 103 95 101 100 53 52 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-driver\usbhw_lpc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 103 101 11 49 53 50 8 52 17 100 59 126 58 94 95 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 11 53 52 17 49 103 126 95 101 100 96 107 59 50 8 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\usb-serial\usb_serial.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102 126 58 11 49 53 50 8 52 17 93 124 119 97 95 107 96 115 55 100 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49 11 93 53 52 17 115 119 58 100 97 55 126 124 50 8 95 96 107 7 102</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\rssi\ubertooth_rssi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116 57 11 58 49 53 50 8 52 17 9 55 100 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 53 52 49 17 7 55 100 9 57 58 50 8 116</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\fifo\serial_fifo.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 115</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bt-tx\syncword.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 58 11 49 53 50 8 52 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 58 50 49 53 52 17 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\cc2400\cc2400_rangetest.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 102 126 58 11 49 53 50 8 52 17 93 124 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 119 102 93 49 11 53 52 17 123 126 124 50 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\clock\ubertooth_clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125 126 58 11 49 53 50 8 52 17 57 102 93 124 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 57 11 50 126 102 8 124 125 49 53 52 17 93 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\bt-tx\dm3-tx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 124 58 11 49 53 50 8 52 17 102 126 93 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 49 126 102 11 124 58 53 52 60 50 8 93 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ego\ego.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 102 126 58 11 49 53 50 8 52 17 93 124 119 125 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 102 119 93 49 11 53 52 17 125 126 124 57 117 50 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\cs\ubertooth_cs.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 57 11 58 49 53 50 8 52 17 102 126 93 124 119 116</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 49 116 11 124 102 58 53 52 17 126 114 50 8 93 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\ubertooth\dma\ubertooth_dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112 57 11 58 49 53 50 8 52 17 102 126 93 124 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 58 57 53 52 17 49 126 102 124 112 50 8 93 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

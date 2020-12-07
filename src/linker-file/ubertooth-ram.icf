@@ -1,0 +1,79 @@
+/*###ICF### Section handled by ICF editor, don't touch! ****/
+/*-Editor annotation file-*/
+/* IcfEditorFile="$TOOLKIT_DIR$\config\ide\IcfEditor\cortex_v1_0.xml" */
+/*-Specials-*/
+define symbol __ICFEDIT_intvec_start__ = 0x00000000;
+/*define symbol __ICFEDIT_intvec_start__ = 0x00000400;*/
+
+/*-Memory Regions-*/
+define symbol __ICFEDIT_region_ROM_start__   = 0x00000000;
+define symbol __ICFEDIT_region_ROM_end__     = 0x0003FFFF;
+define symbol __ICFEDIT_region_RAM_start__   = 0x10000000;
+define symbol __ICFEDIT_region_RAM_end__     = 0x10003FDF;
+
+/*-Sizes-*/
+define symbol __ICFEDIT_size_cstack__   = 0x800;
+define symbol __ICFEDIT_size_heap__     = 0x1000;
+define symbol __ICFEDIT_size_ram__      = __ICFEDIT_region_RAM_end__ - __ICFEDIT_region_RAM_start__;
+/*============================================================================*/
+/**** End of ICF editor section. ###ICF###*/
+
+
+define symbol __CRP_start__   = 0x000002FC;
+define symbol __CRP_end__     = 0x000002FF;
+
+define symbol __RAM1_start__  = 0x2007C000;
+define symbol __RAM1_end__    = 0x2007FFFF;
+
+define memory mem with size = 4G;
+define region ROM_region   = mem:[from __ICFEDIT_region_ROM_start__ to __ICFEDIT_region_ROM_end__] - mem:[from  __CRP_start__ to __CRP_end__];
+define region RAM_region   = mem:[from __ICFEDIT_region_RAM_start__ to __ICFEDIT_region_RAM_end__];
+define region CRP_region   = mem:[from __CRP_start__ to __CRP_end__];
+define region RAM1_region  = mem:[from __RAM1_start__ to __RAM1_end__];
+
+define block CSTACK   with alignment = 8, size = __ICFEDIT_size_cstack__ { };
+define block HEAP     with alignment = 8, size = __ICFEDIT_size_heap__   { };
+
+initialize by copy {readwrite};
+do not initialize  {section .noinit};
+
+place at address mem: __ICFEDIT_intvec_start__ {readonly section .intvec};
+place in ROM_region   {readonly };
+place in RAM_region   {readwrite, block CSTACK, block HEAP };
+place in CRP_region   {section .crp };
+place in RAM1_region  {section .sram };
+
+//================== Project definitions =======================================
+//For start and functioning from internal RAM memory
+//==============================================================================
+
+//place in RAM_region {section .persistent};
+//bootloader_ctrl = _persistent_start + 0x1C;
+//place in RAM { block TempStorage };
+//define block persistent with size = 0x1C, alignment = 4 { };
+//place at address RAM:0x0 {block persistent};
+
+/* ram AT>rom (vtable) */
+place in RAM_region {section .data};
+
+/* zero initialized data */
+place in RAM_region {section .bss};
+
+/* Where we put the heap with cr_clib */
+place in RAM_region {section .cr_heap};
+
+//1) убедиться, что программа попала во Flash в настройках линкера:
+//ROM start address = 0x00000100
+
+//2) убедиться, что в настройках линкера правильно указана область RAM
+//RAM start address = 0x10000000, End address = 0x10007FFF
+
+//3) Учтите, что у LPC17xx ОЗУ разбита на 2 блока с начальными адресами
+//0x10000000 и 0x20000000 (подключен к шине AHB, использовать для DMA)
+//см. стр 12 из юзерь мануала
+
+//4) Убедиться, что таблица векторов прерываний не перенесена в область ОЗУ. 
+//(Если работаете в IAR, посмотреть чтоб не было никаких макросов в на закладке Setup страницы Debugger).
+
+//5) Убедиться, что Вы вообще программируете флеш. В IAR должна стоять галочка 
+//Use flash loader(s) на закладке Download страницы Debugger.
